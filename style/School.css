@@ -104,6 +104,24 @@ main{
     width: 60px;
     height: 60px;
 }
+.footer{
+    background-color: #01ACFD;
+    margin-top: 20px;
+}
+.footer-one{
+    display:flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+    
+}
+.you{
+    font-size: 15px;
+}
+.footer-containe{
+   padding: 20px;
+   justify-content: center;
+}
 @media screen and (max-width: 576px) {
     .banner{
         flex-direction: column;
