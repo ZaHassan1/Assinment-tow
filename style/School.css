@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font> {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+/* heading style */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    
+}
+header
+{
+    max-width: 1160px;
+}
+.home{
+    color: aqua;
+
+}
+.about{
+    color: brown;
+}
+.fac{
+color: burlywood;
+}
+.add{
+    color: blue;
+}
+button{
+    border: none;
+    background-color: orange;
+    border-radius: 8px;
+    padding: 5px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+.banner-title{
+    width: 640px;
+    height: 185px;
+    margin-left: 124px;
+    margin-top: 122px;
+    font-size: 20px;
+    padding: 20px;
+}
+main{
+    max-width: 800px;
+}
+.aso{
+    width: 250px;
+    height: 585px;
+    margin-top: 22px;
+}
+.yea{
+    color: aqua;
+
+}
+.hmm{
+    color: brown;
+}
+
+/* section two  */
+
+.title-one{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 46px;
+    font-weight: bold;
+    
+}
+.part{
+    max-width: 800px;
+}
+
+.fact{
+    box-sizing: content-box;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+  box-shadow: rgba(0, 0, 0, 0.05);
+}
+
+.stander-comtainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+   
+}
+.image{
+    width: 60px;
+    height: 60px;
+}
+@media screen and (max-width: 576px) {
+    .banner{
+        flex-direction: column;
+    }
+    .banner-title{
+        margin-left:16px;
+    }
+    
+}
+    
